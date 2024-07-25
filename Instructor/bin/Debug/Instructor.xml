@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Instructor</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:BinaryTree.BinaryTree`1" -->
+        <member name="F:BinaryTree.BinaryTree`1.root">
+            <summary>
+            Private property: root (the root node of the Binary Tree)
+            </summary>
+        </member>
+        <member name="F:BinaryTree.BinaryTree`1.count">
+            <summary>
+            Private property: count (the node count of the Binary Tree)
+            </summary>
+        </member>
+        <member name="P:BinaryTree.BinaryTree`1.NodeValues">
+            <summary>
+            Public property: NodeValues (string of node values)
+            </summary>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.#ctor">
+            <summary>
+            Constructor method
+            </summary>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.GetRoot">
+            <summary>
+            GetRoot() method
+            </summary>
+            <returns>Root node of the Binary Tree</returns>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.GetCount">
+            <summary>
+            GetCount() method
+            </summary>
+            <returns>Node count of the Binary Tree</returns>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.GetHeight(BinaryTree.Node{`0})">
+            <summary>
+            GetHeight() method
+            </summary>
+            <param name="root">Node<T> representing root of Binary Tree</T></param>
+            <returns>Height of the Binary Tree</returns>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.Add(`0)">
+            <summary>
+            Add() method
+            </summary>
+            <param name="data">Generic data type to be added to Binary Tree</param>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.Contains(`0)">
+            <summary>
+            Contains() method
+            </summary>
+            <param name="value">Generic data type to compared</param>
+            <returns>Bool indicating if value was found</returns>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.Find(`0)">
+            <summary>
+            Find() method
+            </summary>
+            <param name="value">Generic data type to compared</param>
+            <returns>Node if found, null if not found</returns>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.Preorder(BinaryTree.Node{`0})">
+            <summary>
+            PreOrder() method
+            </summary>
+            <param name="root">Represents the root of the Binary Tree instance</param>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.Postorder(BinaryTree.Node{`0})">
+            <summary>
+            PostOrder() method
+            </summary>
+            <param name="root">Represents the root of the Binary Tree instance</param>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.Inorder(BinaryTree.Node{`0})">
+            <summary>
+            InOrder() method
+            </summary>
+            <param name="root">Represents the root of the Binary Tree instance</param>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.DisplayBreadthFirst">
+            <summary>
+            DisplayBreadthFirst() method
+            </summary>
+        </member>
+        <member name="M:BinaryTree.BinaryTree`1.DisplayDepthFirst">
+            <summary>
+            DisplayDepthFirst() method
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:BinaryTree.Node`1" -->
+        <member name="F:BinaryTree.Node`1.data">
+            <summary>
+            Public property: data (generic data type)
+            </summary>
+        </member>
+        <member name="F:BinaryTree.Node`1.leftChild">
+            <summary>
+            Public property: leftChild (reference to the left child Node)
+            </summary>
+        </member>
+        <member name="F:BinaryTree.Node`1.rightChild">
+            <summary>
+            Public property: rightChild (reference to the right child Node)
+            </summary>
+        </member>
+        <member name="M:BinaryTree.Node`1.#ctor(`0)">
+            <summary>
+            Node()
+            </summary>
+            <param name="data">Generic data type, can be any object</param>
+        </member>
+        <member name="M:BinaryTree.Node`1.Display">
+            <summary>
+            Display()
+            </summary>
+        </member>
+        <member name="M:BinaryTree.Node`1.Search(BinaryTree.Node{`0},`0)">
+            <summary>
+            Search()
+            </summary>
+            <param name="node">An instance of a Node to be compared</param>
+            <param name="data">The data being compared to the data of the Node</param>
+            <returns>bool indicating if the data matches the Node data</returns>
+        </member>
+        <member name="M:Instructor.InstructorForm.#ctor">
+            <summary>
+            InstructorForm() method
+            </summary>
+        </member>
+        <member name="M:Instructor.InstructorForm.StartServer">
+            <summary>
+            StartServer()
+            </summary>
+        </member>
+        <member name="M:Instructor.InstructorForm.ReceiveStream">
+            <summary>
+            ReceiveStream()
+            </summary>
+        </member>
+        <member name="M:Instructor.InstructorForm.SetText(System.String)">
+            <summary>
+            SetText()
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:Instructor.InstructorForm.BinarySearch(System.Collections.Generic.List{MathQuestion.MathQues},System.String)">
+            <summary>
+            BinarySearch() method
+            </summary>
+            <param name="list">List of questions to be compared to</param>
+            <param name="quesToSearch">Question to be compared</param>
+            <returns>Index of found question</returns>
+        </member>
+        <member name="M:Instructor.InstructorForm.BubbleSort(System.Collections.Generic.List{MathQuestion.MathQues},System.String)">
+            <summary>
+            BubbleSort()
+            </summary>
+            <param name="list">The list to be sorted</param>
+            <param name="order">Order to sort the list, asc or desc</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.SelectionSort(System.Collections.Generic.List{MathQuestion.MathQues},System.String)">
+            <summary>
+            SelectionSort()
+            </summary>
+            <param name="list">The list to be sorted</param>
+            <param name="order">Order to sort the list, asc or desc</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.InsertionSort(System.Collections.Generic.List{MathQuestion.MathQues},System.String)">
+            <summary>
+            InsertionSort()
+            </summary>
+            <param name="list">The list to be sorted</param>
+            <param name="order">Order to sort the list, asc or desc</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.SortButton(System.String,System.String)">
+            <summary>
+            SortButton()
+            </summary>
+            <param name="type"></param>
+            <param name="order"></param>
+        </member>
+        <member name="M:Instructor.InstructorForm.DisplayButton(System.String)">
+            <summary>
+            DisplayButton()
+            </summary>
+            <param name="transversal">Transversal method of Binary Tree</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.SaveButton(System.String)">
+            <summary>
+            SaveButton()
+            </summary>
+            <param name="transversal">Transversal method of Binary Tree</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.SaveToExternalFile(System.String)">
+            <summary>
+            SaveToExternalFile
+            </summary>
+            <param name="fileContent">String of data to be written</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.DisplayDataGrid">
+            <summary>
+            DisplayDataGrid() method
+            </summary>
+        </member>
+        <member name="M:Instructor.InstructorForm.ExitForm">
+            <summary>
+            ExitForm() method
+            </summary>
+        </member>
+        <member name="M:Instructor.InstructorForm.IsSearchValid">
+            <summary>
+            IsSearchValid()
+            </summary>
+            <returns>bool indicating validation status</returns>
+        </member>
+        <member name="M:Instructor.InstructorForm.IsSendValid">
+            <summary>
+            IsSendValid()
+            </summary>
+            <returns>bool indicating validation status</returns>
+        </member>
+        <member name="F:Instructor.InstructorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Instructor.InstructorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Instructor.InstructorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Instructor.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Instructor.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Instructor.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Instructor.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Instructor.Properties.Resources.instructor_background">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:MathQuestion.MathQues.#ctor(System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            Constructor method
+            </summary>
+            <param name="leftOp">Left operand of the question</param>
+            <param name="mathOp">Math operand of the question</param>
+            <param name="rightOp">Right operand of the question</param>
+            <param name="answer">Answer to the question</param>
+        </member>
+        <member name="M:MathQuestion.MathQues.ToString">
+            <summary>
+            Overridden ToString() method
+            </summary>
+            <returns>Formatted string for display, ex: 4 + 4 = 8</returns>
+        </member>
+        <member name="M:MathQuestion.MathQues.ToStudentString">
+            <summary>
+            ToStudentString() method
+            </summary>
+            <returns>Formatted string for display to student, ex: 4 + 4 = ?</returns>
+        </member>
+        <member name="M:MathQuestion.MathQues.CompareTo(MathQuestion.MathQues)">
+            <summary>
+            Implemented CompareTo() method
+            </summary>
+            <param name="other">MathQues object (other instance being compared)</param>
+            <returns>Returns 0 if both MathQues answers are equal,
+                     Returns -1 if this.Answer is less than other.Answer,
+                     Returns 1 if this.Answer is greater than other.Answer</returns>
+        </member>
+    </members>
+</doc>

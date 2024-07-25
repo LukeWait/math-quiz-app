@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{C1B761A4-A9D8-4665-81CF-3B50AE4371AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instructor", "Instructor\Instructor.csproj", "{FD83B67E-30AD-4266-805D-01E415CDBE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{AA773AAC-D4F2-4F0B-B5BD-556A8E59F649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B761A4-A9D8-4665-81CF-3B50AE4371AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B761A4-A9D8-4665-81CF-3B50AE4371AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B761A4-A9D8-4665-81CF-3B50AE4371AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B761A4-A9D8-4665-81CF-3B50AE4371AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD83B67E-30AD-4266-805D-01E415CDBE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD83B67E-30AD-4266-805D-01E415CDBE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD83B67E-30AD-4266-805D-01E415CDBE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD83B67E-30AD-4266-805D-01E415CDBE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA773AAC-D4F2-4F0B-B5BD-556A8E59F649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA773AAC-D4F2-4F0B-B5BD-556A8E59F649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA773AAC-D4F2-4F0B-B5BD-556A8E59F649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA773AAC-D4F2-4F0B-B5BD-556A8E59F649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07DE4873-BAAF-47F1-8440-88D1B861D3C2}
+	EndGlobalSection
+EndGlobal
