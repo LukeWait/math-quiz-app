@@ -1,6 +1,6 @@
 # Math Quiz LAN App
 ## Description
-C# solution comprising two applications and a unit test project, designed to facilitate server-client communication and demonstrate binary tree manipulation techniques.
+The Math Quiz LAN App is a C# solution comprising two applications designed for real-time server-client communication in a math quiz environment. It utilizes binary tree manipulation techniques for managing quiz questions, providing a seamless experience for instructors and students. The application features a custom message box for alerts and information, along with various question traversal display options. Additionally, unit tests using NUnit ensure the core functionalities are validated.
 
 ### Features
 - Real-time server-client communication for a math quiz application.
