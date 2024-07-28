@@ -20,4 +20,4 @@ NUnitTest/*.csproj.user
 *.log
 
 # Readme images
-#screenshots/
+screenshots/
