@@ -1,6 +1,6 @@
-# Math Quiz LAN App
+# Math Quiz Server/Client App
 ## Description
-The Math Quiz LAN App is a C# solution comprising two applications designed for real-time server-client communication in a math quiz environment. It utilizes binary tree manipulation techniques for managing quiz questions, providing a seamless experience for instructors and students. The application features a custom message box for alerts and information, along with various question traversal display options. Additionally, unit tests using NUnit ensure the core functionalities are validated.
+A C# solution comprising two applications designed for real-time server-client communication in a math quiz environment. It utilizes binary tree manipulation techniques for managing quiz questions, providing a seamless experience for instructors and students. The application features a custom message box for alerts and information, along with various question traversal display options. Additionally, unit tests using NUnit ensure the core functionalities are validated.
 
 ### Features
 - Real-time server-client communication for a math quiz application.
@@ -40,7 +40,7 @@ To install and run the application from source:
 
 ## Usage
 For the applications to run smoothly, they must be executed concurrently to prevent socket-related issues. If the Student (client) application is started before the Instructor (server) application, it may lead to errors; conversely, launching the Instructor first can cause the application to freeze as it waits indefinitely for a connection. 
-
+Note: Currently, the server and client are configured to communicate via localhost. To enable communication over a LAN, additional development and configuration options will be required.
 To run the applications concurrently, follow these steps:
 1. Launch the solution from source by opening the file `MathQuizApp.sln` in Visual Studio.
 2. Right-click on the Solution in the right-hand pane and choose `Properties`.
