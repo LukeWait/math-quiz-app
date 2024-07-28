@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Student</name>
+    </assembly>
+    <members>
+        <member name="M:Student.StudentForm.#ctor">
+            <summary>
+            StudentForm() method
+            </summary>
+        </member>
+        <member name="M:Student.StudentForm.StartClient">
+            <summary>
+            StartClient()
+            </summary>
+        </member>
+        <member name="M:Student.StudentForm.ReceiveStream">
+            <summary>
+            ReceiveStream()
+            </summary>
+        </member>
+        <member name="M:Student.StudentForm.SetText(System.String)">
+            <summary>
+            SetText()
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:Student.StudentForm.IsSubmitValid">
+            <summary>
+            IsSubmitValid()
+            </summary>
+            <returns>bool indicating validation status</returns>
+        </member>
+        <member name="M:Student.StudentForm.ExitForm">
+            <summary>
+            ExitForm() method
+            </summary>
+        </member>
+        <member name="F:Student.StudentForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Student.StudentForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Student.StudentForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Student.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Student.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Student.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Student.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Student.Properties.Resources.student_background">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

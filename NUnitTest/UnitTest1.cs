@@ -1,11 +1,14 @@
-/**************************************************************************************
+﻿/**************************************************************************************
 File name: UnitTest.cs
-Purpose:   1. Tests methods implemented in the ICTPRG547_AT2 solution
-Author:    Luke Wait
-Date:      16.02.23
-Version:   1.0
-Notes:     Testing performed and documented in ICTPRG547_DowntownIT_External_Documentation_Template
-           Testing also performed through NUnitTest Project
+Purpose:   1. Tests methods implemented in the MathQuizApp solution
+Version: 1.0.0
+Author: ┬  ┬ ┬┬┌─┌─┐┬ ┬┌─┐╦╔╦╗
+        │  │ │├┴┐├┤ │││├─┤║ ║
+        ┴─┘└─┘┴ ┴└─┘└┴┘┴ ┴╩ ╩
+Date: February 16, 2023
+License: MIT License
+
+GitHub Repository: https://github.com/LukeWait/math-quiz-app
 **************************************************************************************/
 
 using MathQuestion;

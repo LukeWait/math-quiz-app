@@ -1,4 +1,4 @@
-/****************************************************************************
+﻿/****************************************************************************
 File name: Node<T>.cs
 Purpose:   1. Node class --- generic type <T> which uses IComparable interface
            2. Contains publicy accessible data - generic data type input, 
@@ -8,12 +8,16 @@ Purpose:   1. Node class --- generic type <T> which uses IComparable interface
            5. The CompareTo() method is not implemented here as it is implemented
               directly in the class used as the generic type ... this means that
               any class used for the Node must have the IComparble interface implemented
-Author:    Luke Wait
-Date:      07.02.23
-Version:   1.0
-Notes:     The Binary Tree and Node class source code files are provided by Hans Telford, 
-           under the Creative Commons (Attribution 4.0 International) license. 
-           Refer: https://creativecommons.org/licenses/by/4.0/
+Version: 1.0.0
+Author: ┬  ┬ ┬┬┌─┌─┐┬ ┬┌─┐╦╔╦╗
+        │  │ │├┴┐├┤ │││├─┤║ ║
+        ┴─┘└─┘┴ ┴└─┘└┴┘┴ ┴╩ ╩
+Date: February 7, 2023
+License: The Binary Tree and Node class source code files are provided by Hans Telford, 
+         under the Creative Commons (Attribution 4.0 International) license. 
+         Refer: https://creativecommons.org/licenses/by/4.0/
+
+GitHub Repository: https://github.com/LukeWait/math-quiz-app 
 ****************************************************************************/
 
 using System;

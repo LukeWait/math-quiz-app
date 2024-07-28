@@ -5,10 +5,14 @@ Purpose:   1. Create GUI From application
            3. Receives a math question from the Instructor app over a network connection
            4. Submit button takes user input and checks against the correct answer, then the result
               is displayed and sent to the Instructor app
-Author:    Luke Wait
-Date:      05.02.23
-Version:   1.0
-Notes:     Testing performed and documented in ICTPRG547_DowntownIT_External_Documentation_Template
+Version: 1.0.0
+Author: ┬  ┬ ┬┬┌─┌─┐┬ ┬┌─┐╦╔╦╗
+        │  │ │├┴┐├┤ │││├─┤║ ║
+        ┴─┘└─┘┴ ┴└─┘└┴┘┴ ┴╩ ╩
+Date: February 5, 2023
+License: MIT License
+
+GitHub Repository: https://github.com/LukeWait/math-quiz-app
 **************************************************************************************/
 
 using System;

@@ -4,7 +4,16 @@
         <name>Instructor</name>
     </assembly>
     <members>
-        <!-- Badly formed XML comment ignored for member "T:BinaryTree.BinaryTree`1" -->
+        <member name="T:BinaryTree.BinaryTree`1">
+            <summary>
+            BinaryTree class
+            Purpose:    Provide class template for Binary Tree data
+            Implements: IComparable interface
+            </summary>
+            <remarks>Luke Wait
+                     07.02.23
+                     Version 1.0</remarks>
+        </member>
         <member name="F:BinaryTree.BinaryTree`1.root">
             <summary>
             Private property: root (the root node of the Binary Tree)

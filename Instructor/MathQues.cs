@@ -1,16 +1,19 @@
-﻿/****************************************************************************
+﻿/**************************************************************************************
 File name: MathQues.cs
 Purpose:   1. Represents an instance of a math question
            2. Contains private variables accessable with public methods
            3. Implements IComparable interface
            4. Contains method overload of ToString()
            5. Contains CompareTo() method to compare MathQues instances by answer
-Author:    Luke Wait
-Date:      05.02.23
-Version:   1.0
-Notes:     Testing performed and documented in ICTPRG547_DowntownIT_External_Documentation_Template
-           Testing also performed through NUnitTest Project
-****************************************************************************/
+Version: 1.0.0
+Author: ┬  ┬ ┬┬┌─┌─┐┬ ┬┌─┐╦╔╦╗
+        │  │ │├┴┐├┤ │││├─┤║ ║
+        ┴─┘└─┘┴ ┴└─┘└┴┘┴ ┴╩ ╩
+Date: February 5, 2023
+License: MIT License
+
+GitHub Repository: https://github.com/LukeWait/math-quiz-app
+**************************************************************************************/
 
 using System;
 using System.Runtime.Serialization;

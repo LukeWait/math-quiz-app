@@ -1,2 +1,23 @@
-# Ignores
-docs/
+# Compiled files
+Instructor/bin/
+Instructor/obj/
+Student/bin/
+Student/obj/
+NUnitTest/bin/
+NUnitTest/obj/
+
+# User-specific files
+Instructor/*.csproj.user
+Student/*.csproj.user
+NUnitTest/*.csproj.user
+/.vs
+
+# Backup files
+*.bak
+
+# Other temporary files
+*.tmp
+*.log
+
+# Readme images
+#screenshots/
